@@ -1,4 +1,4 @@
-//Stack as an ADT
+//Stack as an Abstract Data Type(ADT)
 #include<stdio.h>
 #include<string.h>
 
