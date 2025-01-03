@@ -1,4 +1,4 @@
-//Infix to postfix
+//Infix to postfix conversion
 #include<stdio.h>
 #define MAX 20
 struct Stack
