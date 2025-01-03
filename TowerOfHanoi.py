@@ -10,4 +10,4 @@ def toh(n, src, dst, tmp):
 
 num = int(input("Enter number of disks: "))
 print("The sequence will be:")
-toh(num, 'A', 'C', 'B') 
+toh(num, 'A', 'C', 'B')
