@@ -1,5 +1,4 @@
-//Nth order fibonacci series
-
+//nth fibonacci series term
 #include <iostream>
 #include <cmath>
 using namespace std;
