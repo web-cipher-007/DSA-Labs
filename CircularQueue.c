@@ -9,7 +9,7 @@ struct CircularQueue
 typedef struct CircularQueue CQ;  //alias
 void enqueue(CQ*Q,int element)
 {
-    if((Q->FRONT==Q->REAR+1)%MAX)
+    if(Q->FRONT==(Q->REAR+1%MAX))
     printf("Queue is full \n");
 
     else
