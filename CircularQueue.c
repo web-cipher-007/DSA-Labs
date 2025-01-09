@@ -6,7 +6,7 @@ struct CircularQueue
     int REAR;
     int DATA[MAX];
 };
-typedef struct CircularQueue CQ;  //alias
+typedef struct CircularQueue CQ;  //alias is created here for ease
 void enqueue(CQ*Q,int element)
 {
     if(Q->FRONT == (Q->REAR+1) % MAX))
