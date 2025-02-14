@@ -85,6 +85,6 @@ int main()
     end=clock();
     display(A,n);
     
-    printf("The time Taken us %f seconds \n",(float)(end-start)/CLOCKS_PER_SEC);
+    printf("The time taken is %f seconds. \n",(float)(end-start)/CLOCKS_PER_SEC);
     return 0;
 }
