@@ -24,6 +24,6 @@ def evaluate_postfix(postfix_exp):
 
             
             
-inp=input("Enter a postfix ")
+inp=input("Enter a postfix: ")
 result =evaluate_postfix(inp)
 print(f"Result is {result}")
